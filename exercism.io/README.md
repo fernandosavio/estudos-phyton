@@ -1,0 +1,1 @@
+http://exercism.io/languages/python/exercises
