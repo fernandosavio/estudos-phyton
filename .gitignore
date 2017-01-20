@@ -90,7 +90,7 @@ ENV/
 
 
 ###########################################################################################
-#        Created by https://www.gitignore.io/api/jetbrains,linux                     #
+#        Created by https://www.gitignore.io/api/jetbrains,linux,virtualenv               #
 ###########################################################################################
 
 ### JetBrains ###
@@ -161,4 +161,19 @@ fabric.properties
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
-# End of https://www.gitignore.io/api/jetn,jetbrains,linux
+
+### VirtualEnv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+# End of https://www.gitignore.io/api/jetbrains,linux,virtualenv
